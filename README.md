@@ -13,11 +13,11 @@ The data structure is as follows. The image of the total of 22424 driver’s dri
 
 # Data Preprocess & Training
 ----------------------------------------------------------------------------
-•	I cut all  640 X 480 pixel  22424 images to 480 X 480 pixel images and resized to 192 X 192 pixel images. (Data Preprocessing)
-•	I made 5 training network layers consisted of 3X3 8 filters, convolution layer, relu function, 2X2 kernel size max pooling and drop out(keep probability = 80%). Each training network layer, number of filter increases twice. Initialized number is 8.
-•	I made 2 fully connected layers used classify images to their label. I used Adam Optimizer to minimize cost and softmax cross entropy to check costs. Accuracy function is comparing label’s argumax value and machine’s calculated arguma value.
-•	In training settings, learning rate is 0.01, data batch size is 100, 10 training epochs which means how many times to train all data.
++ •	I cut all  640 X 480 pixel  22424 images to 480 X 480 pixel images and resized to 192 X 192 pixel images. (Data Preprocessing)
++ •	I made 5 training network layers consisted of 3X3 8 filters, convolution layer, relu function, 2X2 kernel size max pooling and drop out(keep probability = 80%). Each training network layer, number of filter increases twice. Initialized number is 8.
++ •	I made 2 fully connected layers used classify images to their label. I used Adam Optimizer to minimize cost and softmax cross entropy to check costs. Accuracy function is comparing label’s argumax value and machine’s calculated arguma value.
++ •	In training settings, learning rate is 0.01, data batch size is 100, 10 training epochs which means how many times to train all data.
 
 # Result
 ----------------------------------------------------------------------------
-•	I tested this model so many times but its result shows that its classification accuracy is 10% ~ 12%.
++ •	I tested this model so many times but its result shows that its classification accuracy is 10% ~ 12%.
